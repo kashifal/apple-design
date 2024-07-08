@@ -12,6 +12,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.22",
     "@heroicons/vue": "^2.1.4",
+    "@nuxt/image": "^1.7.0",
     "@splidejs/splide": "^4.1.4",
     "nuxt": "^3.12.3",
     "vue": "latest"

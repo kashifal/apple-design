@@ -5,7 +5,7 @@
         <ul class="splide__list">
           <li class="splide__slide" v-for="(image, index) in data" :key="index">
             <div class="col-span-1 rounded-md p-2 bg-[#F5F5F5]">
-              <img
+              <NuxtImg
                 src="https://images.olx.com.pk/thumbnails/462714568-800x600.webp"
                 class="w-full h-auto"
                 alt=""
