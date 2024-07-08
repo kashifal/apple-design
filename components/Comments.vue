@@ -79,6 +79,11 @@ onMounted(() => {
     pagination: false,
     arrows: false,
     autoplay: true,
+    breakpoints: {
+      640: {
+        perPage: 1,
+      },
+    },
   }).mount();
 });
 const next = () => {
