@@ -10,9 +10,7 @@
           {{ item.name }}
         </dt>
         <dd class="mt-1 text-3xl font-semibold tracking-tight text-gray-900">
-          <span class="flex items-center gap-1"
-            ><count-up :end-val="item.stat"></count-up>%</span
-          >
+          {{ item.stat }}
         </dd>
       </div>
     </dl>
@@ -20,7 +18,6 @@
 </template>
 
 <script setup>
-import CountUp from "vue-countup-v3";
 const stats = [
   { name: "Total Subscribers", stat: 40 },
   { name: "Avg. Open Rate", stat: 40 },
