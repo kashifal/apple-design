@@ -5,6 +5,7 @@
       <div class="">
         <div class="mx-auto max-w-[85rem] justify-between gap-3 px-4 py-20">
           <Gallery />
+          <Stats />
 
           <div class="pt-12">
             <div
